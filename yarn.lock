@@ -1629,7 +1629,7 @@ defined@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/defined/-/defined-1.0.0.tgz#c98d9bcef75674188e110969151199e39b1fa693"
 
-del@^2.0.2, del@^2.2.0:
+del@^2.0.2, del@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/del/-/del-2.2.2.tgz#c12c981d067846c84bcaf862cff930d907ffd1a8"
   dependencies:
@@ -2850,7 +2850,7 @@ gulp-imagemin@^3.0.1:
     imagemin-optipng "^5.2.1"
     imagemin-svgo "^5.2.2"
 
-gulp-load-plugins@^1.2.4:
+gulp-load-plugins@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/gulp-load-plugins/-/gulp-load-plugins-1.5.0.tgz#4c419f7e5764d9a0e33061bab9618f81b73d4171"
   dependencies:
