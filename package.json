@@ -42,5 +42,9 @@
         "single"
       ]
     }
-  }
+  },
+  "scripts": {
+  "start": "gulp serve:dist",
+  "postinstall": "gulp default"
+}
 }

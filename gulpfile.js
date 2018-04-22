@@ -9,6 +9,8 @@ const runSequence = require('run-sequence');
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
 
+const PORT = process.env.PORT || 8080;
+
 let dev = true;
 
 gulp.task('styles', () => {
@@ -123,7 +125,7 @@ gulp.task('serve', () => {
 gulp.task('serve:dist', ['default'], () => {
   browserSync.init({
     notify: false,
-    port: 9000,
+    port: PORT,
     server: {
       baseDir: ['dist']
     }
